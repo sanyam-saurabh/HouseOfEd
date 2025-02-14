@@ -49,9 +49,9 @@ const HomePage = () => {
   
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+    <div className="min-h-screen flex items-center justify-center bg-gray-800">
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-        <h1 className="text-2xl font-semibold text-center mb-6">Email Authentication</h1>
+        <h1 className="text-2xl text-blue-500 font-semibold text-center mb-6">Email Authentication</h1>
         {!otpSent ? (
           <div>
             <input
