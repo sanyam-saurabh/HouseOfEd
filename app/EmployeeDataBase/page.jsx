@@ -134,9 +134,9 @@ export default function Home() {
       {/* Employee List Table */}
       <div className="bg-white p-6 rounded-lg shadow-md text-gray-800">
         <table className="w-full border-collapse border border-gray-300">
-          <thead>
+          <thead >
             <tr className="bg-blue-500">
-              <th className="border p-2">Employee Name</th>
+              <th className="border p-2 ">Employee Name</th>
               <th className="border p-2">Email</th>
               <th className="border p-2">Phone No.</th>
               <th className="border p-2">Actions</th>
@@ -151,7 +151,7 @@ export default function Home() {
                 <td className="border p-2">{employee.name}</td>
                 <td className="border p-2">{employee.email}</td>
                 <td className="border p-2">{employee.phone}</td>
-                <td className="border p-2 flex space-x-2 justify-center">
+                <td className="p-2 flex space-x-2 justify-center">
                   <FaEdit
                     className="text-green-500 cursor-pointer"
                     onClick={() => {
